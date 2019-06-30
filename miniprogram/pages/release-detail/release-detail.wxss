@@ -1,4 +1,5 @@
-/* pages/release-detail/release-detail.wxss */
+@import "../../lib/wxParse/wxParse.wxss";
+
 .release {
   padding: 24rpx 24rpx 0;
   font-size: 28rpx;

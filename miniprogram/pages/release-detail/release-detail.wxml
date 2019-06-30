@@ -1,4 +1,3 @@
-<import src="../../lib/wxParse/wxParse.wxml" />
 <wxs module='theming' src='../../filter/theming.wxs' />
 <view class="page release {{ theme }}">
   <text class="release-title">{{release.name}}</text>
@@ -11,7 +10,9 @@
     <text class="name">{{release.author.login}}</text>
     <text class="date">发布于 {{releaseDate}}</text>
   </view>
-  <view class="desc">{{release.body}}</view>
+  <view class="desc">
+    <md md="{{descMd}}" custom-class="{{ theme }} elevation"></md>
+  </view>
   <view class="divider"></view>
   <view class="assets-title">
     <text class="title">Assets</text>

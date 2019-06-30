@@ -10,7 +10,7 @@
 
 | 微信群 | 个人微信 |
 | :---: | :----: |
-| ![GroupQRCode](https://user-images.githubusercontent.com/15965696/57529687-17869600-7368-11e9-9c04-14079b93776e.png) | ![PersonalQRCode](https://user-images.githubusercontent.com/15965696/57529474-929b7c80-7367-11e9-95a2-f1063bf22c7f.jpg) |
+| ![GroupQRCode](https://user-images.githubusercontent.com/15965696/58446451-5de33f80-8133-11e9-9f06-fc9ca6ba113c.png) | ![PersonalQRCode](https://user-images.githubusercontent.com/15965696/57529474-929b7c80-7367-11e9-95a2-f1063bf22c7f.jpg) |
 
 > 如果群二维码过期，请添加作者微信拉你入群
 
@@ -55,6 +55,7 @@
 - [ ] Issue/PR 详情页可 assign 成员 (如果有权限)
 - [x] 支持重新编辑 Issue(Title, Comment)
 - [x] 支持在项目详情页新建 Issue
+- [x] 支持多主题样式: light, dark, oled(black)
 
 ## Contributions
 
@@ -77,6 +78,10 @@
 
 ## Change Logs
 
+- v2.9.0
+  - :new: 支持多主题样式: light, dark, oled(black)
+  - :hammer: 多种主题下, tab 栏图标均提供选中高亮样式
+  - :bug: 通知页面多种通知 icon 错误问题 (thanks to @maoqxxmm)
 - v2.8.2
   - :new: 支持重新编辑 Issue(Title, Comment)
   - :new: 支持在项目详情页新建 Issue
@@ -109,12 +114,3 @@
   - :new: 查看代码仓库详情, 可 Star, Fork, Watch
   - :new: 查看本人用户信息以及他人用户信息, 关注列表, 关注者列表, 可关注和取消关注
   - :new: 搜索代码仓库和用户
-
-## Donation
-
-> 作者不喝咖啡 :coffee: 只喝茶 :tea:
-
-
-| 支付宝 | 微信支付 |
-| :------: | :------: |
-| ![alipay](https://user-images.githubusercontent.com/15965696/55284497-83a9cd80-53aa-11e9-84f5-c61ba7d1190d.jpg) | ![wepay](https://user-images.githubusercontent.com/15965696/55284500-8d333580-53aa-11e9-8b3f-974cd0508f8e.png) |
